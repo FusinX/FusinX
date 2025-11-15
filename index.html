@@ -142,9 +142,28 @@ p { font-size: 17px; }
 
 <section id="showreel">
     <h2 class="title">Showreel</h2>
-    <p>You can view my showreel here once uploaded.</p>
-    <a href="#" class="showreel-btn">Watch Showreel</a>
+    <p>Watch my latest showreel below.</p>
+
+    <!-- YouTube Embed -->
+    <div style="margin-top:20px;">
+        <iframe 
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <!-- Optional Button (opens YouTube video in a new tab) -->
+    <a href="https://www.youtube.com/watch?v=VIDEO_ID" 
+       target="_blank" 
+       class="showreel-btn">
+       Watch on YouTube
+    </a>
 </section>
+
 
 <div class="border-decor"></div>
 
@@ -183,6 +202,7 @@ p { font-size: 17px; }
 
 </body>
 </html>
+
 
 
 
